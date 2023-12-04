@@ -1,0 +1,2 @@
+# PocketPC-DataBase-QtCreator
+ 
