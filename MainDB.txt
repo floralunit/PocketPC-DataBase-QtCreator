@@ -1,0 +1,2 @@
+x824 Samsung AMD 8Gb 240:380
+p342 NewRock Intel 2Gb 1080:1960

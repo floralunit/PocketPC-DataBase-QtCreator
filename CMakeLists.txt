@@ -38,6 +38,10 @@ set(PROJECT_SOURCES
         PocketPC.h
         Vector.cpp
         Vector.h
+        addnewpocketpc.cpp
+        addnewpocketpc.h
+        addnewpocketpc.ui
+        ICON.ico
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
