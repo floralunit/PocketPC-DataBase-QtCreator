@@ -43,6 +43,31 @@ void MainWindow::setupModel(DataBase data)
         ui->tableWidget->setItem(i, 3, new QTableWidgetItem(dataf.getRAM_ROM().c_str()));
          ui->tableWidget->setItem(i, 4, new QTableWidgetItem(dataf.getScreenResolution().c_str()));
     }
+
+    QPixmap pixmap1("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/createBase.png");
+    QIcon ButtonIcon1 (pixmap1);
+    ui -> createToolButton -> setIcon(ButtonIcon1);
+    QPixmap pixmap2("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/add.png");
+    QIcon ButtonIcon2 (pixmap2);
+    ui -> addToolButton -> setIcon(ButtonIcon2);
+    QPixmap pixmap3("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/createBase.png");
+    QIcon ButtonIcon3 (pixmap3);
+    ui -> editToolButton -> setIcon(ButtonIcon3);
+    QPixmap pixmap4("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/delete.png");
+    QIcon ButtonIcon4 (pixmap4);
+    ui -> deleteToolButton -> setIcon(ButtonIcon4);
+    QPixmap pixmap5("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/merge.png");
+    QIcon ButtonIcon5 (pixmap5);
+    ui -> mergeToolButton -> setIcon(ButtonIcon5);
+    QPixmap pixmap6("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/database.png");
+    QIcon ButtonIcon6 (pixmap6);
+    ui -> openToolButton -> setIcon(ButtonIcon6);
+    QPixmap pixmap7("/home/floralunit/PocketPC-DataBase-QtCreator/resourses/save.png");
+    QIcon ButtonIcon7 (pixmap7);
+    ui -> saveToolButton -> setIcon(ButtonIcon7);
+
+     ui -> menubar -> setStyleSheet("QMenuBar {color: rgb (255, 255, 255)}");
+
 }
 
 void MainWindow::on_saveButton_clicked()
