@@ -281,43 +281,5 @@ void MainWindow::on_SearchLine_textChanged(const QString &arg1)
 
 void MainWindow::on_toolButton_triggered(QAction *arg1)
 {
-}
 
-void MainWindow::on_createToolButton_triggered(QAction *arg1)
-{
-}
-
-void MainWindow::on_createToolButton_clicked()
-{
-    on_createButton_clicked();
-}
-
-void MainWindow::on_openToolButton_clicked()
-{
-    on_openButton_clicked();
-}
-
-void MainWindow::on_mergeToolButton_clicked()
-{
-    on_mergeButton_clicked();
-}
-
-void MainWindow::on_saveToolButton_clicked()
-{
-    on_saveButton_clicked();
-}
-
-void MainWindow::on_addToolButton_clicked()
-{
-    on_addDataButton_clicked();
-}
-
-void MainWindow::on_editToolButton_clicked()
-{
-    on_action_edit_triggered();
-}
-
-void MainWindow::on_deleteToolButton_clicked()
-{
-    on_deleteDataButton_clicked();
 }

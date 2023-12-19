@@ -40,6 +40,24 @@ private slots:
 
     void on_SearchLine_textEdited(const QString &arg1);
 
+    void on_toolButton_triggered(QAction *arg1);
+
+    void on_createToolButton_triggered(QAction *arg1);
+
+    void on_createToolButton_clicked();
+
+    void on_openToolButton_clicked();
+
+    void on_mergeToolButton_clicked();
+
+    void on_saveToolButton_clicked();
+
+    void on_addToolButton_clicked();
+
+    void on_editToolButton_clicked();
+
+    void on_deleteToolButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     DataBase myDatabase;
